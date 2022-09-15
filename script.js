@@ -11,3 +11,16 @@ function dispararAlert() {
 }
 
 botaoEntrar.addEventListener('click', dispararAlert);
+
+const botaoEnviar = document.querySelector('#submit-btn');
+const checkbox = document.querySelector('#agreement');
+
+function habilitaBotaoEnviar() {
+  if (checkbox.checked === true) {
+    botaoEnviar.disabled = false;
+  } else {
+    botaoEnviar.disabled = true;
+  }
+}
+
+checkbox.addEventListener('click', habilitaBotaoEnviar);
