@@ -14,6 +14,7 @@ botaoEntrar.addEventListener('click', dispararAlert);
 
 const botaoEnviar = document.querySelector('#submit-btn');
 const checkbox = document.querySelector('#agreement');
+botaoEnviar.disabled = true;
 
 function habilitaBotaoEnviar() {
   if (checkbox.checked === true) {
@@ -22,5 +23,4 @@ function habilitaBotaoEnviar() {
     botaoEnviar.disabled = true;
   }
 }
-
 checkbox.addEventListener('click', habilitaBotaoEnviar);
