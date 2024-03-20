@@ -1,10 +1,11 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Projeto Trybewarts
+
+## Descrição
+Projeto desenvolvido durante a seção de ``HTML e CSS: Forms, Flexbox e Responsivo``, do módulo de Fundamentos, do curso de Desenvolvimento Web Full Stack da Trybe.
+
+Utilização de ``HTML``, ``CSS`` e ``JavaScript`` para desenvolver um ``formulário responsivo``.
+
+## Tecnologias utilizadas
+- HTML
+- CSS
+- JavaScript
